@@ -1,3 +1,5 @@
+TODO: Basic Linux Commands
+
 pwd - terminal current location
 
 // Starting of the terminal
