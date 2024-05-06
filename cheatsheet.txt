@@ -18,26 +18,27 @@ ls -a			          => dispaly all the hidden files
 ls *.txt		        => display all the txt files
 ls ind*		          => display all the files and folder starting with ind
 
-mkdir 		       => to make a new folder
-touch index.js   => to make a new file of any extension
-cat index.txt    => to print the content of the file in the terminal
+mkdir 		          => to make a new folder
+touch index.js      => to make a new file of any extension
+cat index.txt       => to print the content of the file in the terminal
 
-cat > a.txt    => by this also you can add things in the file
-cat >> a.txt   => to apend txt in the existing file (if you use above comand then it will rewrite the whole file)
+cat > a.txt         => by this also you can add things in the file
+cat >> a.txt        => to apend txt in the existing file (if you use above comand then it will rewrite the whole file)
 
 // in case you use vin as the primary code editor
-vi a.txt      => to make a file using vim
-press i key   => before writing isnide the file unless the content do not write in the file
-esc :wq!      => to save the file
-esc :q!       => to close the file without saving
+vim a.txt            => to make a file using vim
+press i key          => before writing isnide the file unless the content do not write in the file
+esc :wq!             => to save the file
+esc :q!              => to close the file without saving
 
 mv <file or folder to move> <where to move>    - To move the file or folder
 you can use  cd ../.. to  move the files or folders to previous directories
 
-cp <file to copy> <where to copy>	     - To copy a file
-cp -r <file to copy> <where to copy>	 - To copy a folder (just add -r)
+cp <file to copy> <where to copy>	      => To copy a file
+cp -r <file to copy> <where to copy>	  => To copy a folder (just add -r)
 
-rm <file name>      => delete a file
-rm -r <file name>   => delete a folder
+rm <file name>                          => delete a file
+rm -r <file name>                       => delete a folder
 
-clear - to clear the terminal
+clear                                   => to clear the terminal
+
